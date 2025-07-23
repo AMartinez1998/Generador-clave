@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener Clave</title>
+    <link rel="stylesheet" href="clave.css">
+</head>
+<body>
+
+    
+   <form id="formulario" class="formulario">
+    <label for="cantidad">¿Cuántos carácteres quieres en tu clave? (min 8, max12)</label><br><br>
+    <input type="number" id="cantidad" min="8" max="12" required>
+    <br><br>
+    <label for="mayusculas">¿Incluir Mayúsculas?</label>
+    <input type="checkbox" id="mayusculas">
+    <br><br>
+    <label for="minusculas">¿Incluir Minúsculas?</label>
+    <input type="checkbox" id="minusculas">
+    <br><br>
+    <label for="numeros">¿Incluir Números?</label>
+    <input type="checkbox" id="numeros">
+    <br><br>
+    <label for="simbolos">¿Incluir Símbolos?</label>
+    <input type="checkbox" id="simbolos">
+    <br><br>
+    <button id="boton1">Crear Clave</button>
+    <div id="resultado"></div>
+</form>
+
+    
+    <script src="clave.js"></script>
+</body>
+</html>
